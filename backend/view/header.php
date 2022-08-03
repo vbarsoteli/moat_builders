@@ -1,0 +1,1 @@
+<div id="header"><a href="./"><img src="imagem/logo.png?2"></a><br>Hi! <?=$_SESSION['user']['name'] ? $_SESSION['user']['name'] : 'user' ?></div>

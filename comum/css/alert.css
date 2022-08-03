@@ -1,0 +1,43 @@
+@media (min-width: 999px) {
+    #alert {
+        width: 500px;
+        text-align:right;
+        border-bottom:5px #C7CA4D solid;
+        margin:0 auto;
+        padding:10px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+        background-color:#007495;
+        color: #FFF;
+        position: absolute;
+        top: 0;
+        left:0px;
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* mobile */
+@media (max-width: 999px) {
+    #alert {
+        width: 90%;
+        text-align:center;
+        border:1px #CCC solid;
+        margin:0 auto;
+        padding:10px 0;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+        background-color:#CCC;
+        position: absolute;
+        top: 0;
+        left:0px;
+        display: none;
+    }
+}

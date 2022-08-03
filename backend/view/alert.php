@@ -1,0 +1,1 @@
+<div id="alert" <?=$data ? 'style="display:block"' : '' ?> ><?=$data ?></div>
